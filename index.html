@@ -1,0 +1,69 @@
+<!DOCTYPE html> 
+
+<html lang="en"> 
+
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Pet Store</title> 
+    <link rel="stylesheet" href="styles.css"> 
+</head> 
+
+<body> 
+
+    <header style="background: url('petshop-img/jumbotron.jpg') center/cover no-repeat;">
+        <h1>Welcome to Our Pet Store</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="pets.html">Pets</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+
+    <main> 
+        <section class="featured"> 
+
+            <h2>Featured Pets</h2> 
+
+            <div class="pet-list"> 
+                <div class="pet"> 
+                    <img src="petshop-img/dog.jpg" alt="Cute Dog"> 
+                    <p>Charlie - Golden Retriever</p> 
+                    <button onclick="adoptPet()">Adopt Now</button> 
+                </div> 
+
+                <div class="pet"> 
+                    <img src="petshop-img/cat.webp" alt="Cute Cat"> 
+                    <p>Milo - British Shorthair</p> 
+                    <button onclick="adoptPet()">Adopt Now</button> 
+                </div> 
+            
+            </div> 
+
+        </section> 
+    </main> 
+
+ 
+
+    <footer id="contact"> 
+            <div class="map-stuff">
+                <div class="content">
+                    <h2>Pet Store</h2>
+                    <p>123 Pet Lane, Animal City, Ac 12345</p>
+                    <p>Email: info@petstore.com</p>
+                    <p>Contact us at: <strong>info@petstore.com</strong></p> 
+                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3877.757578088681!2d100.8353416!3d13.6116127!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x311d430e775155f9%3A0xf01923824353260!2sAssumption%20University%20Suvarnabhumi%20Campus!5e0!3m2!1sen!2sth!4v1749630786623!5m2!1sen!2sth" 
+                width="300" height="200" 
+                style="border:0;" allowfullscreen="" loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+    </footer> 
+
+
+    <script src="script.js"></script>
+</body> 
+
+</html> 
